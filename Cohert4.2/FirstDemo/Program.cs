@@ -6,13 +6,16 @@ namespace FirstDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name : ");
-            string name = Console.ReadLine();
+                        
+            Console.WriteLine("please enter first interger number : ");
+            int a = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("What is your age : ");
-            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter second integer number : ");
+            int b = int.Parse(Console.ReadLine());
+
+            int sum = a + b;
   
-            Console.WriteLine("Hello, " + name + " You are " + age + " old");
+            Console.WriteLine("sum of " + a + " and " + b + " is : " + sum );
         }
     }
 }
