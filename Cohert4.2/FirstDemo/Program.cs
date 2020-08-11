@@ -13,9 +13,9 @@ namespace FirstDemo
             Console.WriteLine("Please enter second integer number : ");
             int b = int.Parse(Console.ReadLine());
 
-            int sum = a + b;
+            double sum = (long)a * (long)b;
   
-            Console.WriteLine("sum of " + a + " and " + b + " is : " + sum );
+            Console.WriteLine(" Multiplication of " + a + " and " + b + " is : " + sum );
         }
     }
 }
